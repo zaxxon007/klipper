@@ -16,12 +16,12 @@ Contributions to Klipper generally follow a high-level process:
    when a submission is ready for widespread deployment.
 2. When a [reviewer](#reviewers) is available to
    [review](#what-to-expect-in-a-review) the submission, they will
-   mark the Pull Request with a "under review" label. The goal of the
+   assign themselves to the Pull Request on GitHub. The goal of the
    review is to look for defects and to check that the submission
    follows documented guidelines.
-3. After a successful review, the reviewer will mark the Pull Request
-   with a "reviewed" label and a [maintainer](#reviewers) will commit
-   the change to the Klipper master branch.
+3. After a successful review, the reviewer will "approve the review"
+   on GitHub and a [maintainer](#reviewers) will commit the change to
+   the Klipper master branch.
 
 When working on enhancements, consider starting (or contributing to) a
 topic on [Klipper Discourse](Contact.md). An ongoing discussion on the
