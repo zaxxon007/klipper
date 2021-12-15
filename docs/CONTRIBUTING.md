@@ -218,6 +218,31 @@ an alternative implementation. Both situations are a normal result of
 a review and should not be considered criticism of the original
 submission.
 
+### Helping with reviews
+
+We appreciate help with reviews! It is not necessary to be a
+[listed reviewer](#reviewers) to perform a review. One may also review
+their own submissions.
+
+To help with a review, follow the steps outlined in
+[what to expect in a review](#what-to-expect-in-a-review) to verify
+the submission. After completing the review, add a comment to the
+GitHub Pull Request with your findings. If the submission passes the
+review then please state that explicitly in the comment - for example
+something like "I reviewed this change according to the steps in the
+CONTRIBUTING document and everything looks good to me". If unable to
+complete some steps in the review then please explicitly state which
+steps were reviewed and which steps were not reviewed - for example
+something like "I didn't check the code for defects, but I reviewed
+everything else in the CONTRIBUTING document and it looks good".
+
+We also appreciate testing of submissions. If the code was tested then
+please add a comment to the GitHub Pull Request with the results of
+your test - success or failure. Please explicitly state that the code
+was tested and the results - for example something like "I tested this
+code on my Acme900Z printer with a vase print and the results were
+good".
+
 ### Reviewers
 
 The Klipper "reviewers" are:
