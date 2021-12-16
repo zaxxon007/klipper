@@ -30,6 +30,17 @@ sudo update-rc.d klipper_mcu defaults
 
 Make sure the Linux SPI driver is enabled by running sudo raspi-config and enabling SPI under the "Interfacing options" menu.
 
+Make sure you have loaded kernel module needed for using SPI in Python:
+...
+pi@raspberrypi:~/adxl345spi $ cat /etc/modules
+# /etc/modules: kernel modules to load at boot time.
+#
+# This file contains the names of kernel modules that should be loaded
+# at boot time, one per line. Lines beginning with "#" are ignored.
+spi-dev
+i2c-dev
+...
+
 ## Building the micro-controller code
 
 To compile the Klipper micro-controller code, start by configuring it
